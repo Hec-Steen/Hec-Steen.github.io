@@ -36,7 +36,7 @@ jobs:
           restore-keys: mkdocs-material-
 
       - name: Install dependencies
-        run: pip install mkdocs-material[imaging] mkdocs-glightbox mkdocs-rss-plugin
+        run: pip install "mkdocs-material[imaging]" mkdocs-glightbox mkdocs-rss-plugin pycairo
 
       - name: Deploy
         run: mkdocs gh-deploy --force
