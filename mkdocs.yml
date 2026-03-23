@@ -54,9 +54,6 @@ plugins:
       archive: false
       categories: true
       post_url_format: "{slug}"
-  - social:
-      cards: true
-      cards_dir: assets/images/social
   - rss:
       match_path: "blog/posts/.*"
       date_from_meta:
