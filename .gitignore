@@ -9,5 +9,12 @@ wheels/
 # Virtual environments
 .venv
 
+# MkDocs build output and cache
+site/
+.cache/
+
+# Claude Code local settings
+.claude/
+
 # Draft blog posts
-docs/posts/the-lives-we-could-save.md
+docs/blog/posts/the-lives-we-could-save.md

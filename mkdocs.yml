@@ -1,13 +1,14 @@
-site_name: Sam Osian — Health Data Scientist
-site_description: Sam Osian — Health Data Scientist
-site_author: Sam Osian
-site_url: https://sam-osian.com
+site_name: Hector Steenbergen-Cockerton
+site_description: Urban Sociology & Energy Transition Researcher
+site_author: Hector Steenbergen-Cockerton
+site_url: https://hec-steen.github.io
 
 nav:
   - Home: index.md
   - About: about.md
+  - Blog: blog/index.md
+  - Art: drawings.md
   - Publications: publications.md
-  - PFD Toolkit: https://pfdtoolkit.org/
 
 theme:
   name: material
@@ -19,7 +20,7 @@ theme:
       primary: custom
       accent: deep orange
       toggle:
-        icon: material/brightness-7 
+        icon: material/brightness-7
         name: Switch to dark mode
 
     # Palette toggle for dark mode
@@ -29,7 +30,7 @@ theme:
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
-        
+
   font:
     text: Tinos
     code: Roboto Mono
@@ -37,29 +38,27 @@ theme:
     logo: material/book-open-variant
   favicon: favicon.png
   features:
-    - navigation.expand
     - navigation.top
     - navigation.sections
     - navigation.path
     - search.suggest
     - search.highlight
     - content.code.copy
-    - content.action.edit
     - header.autohide
     - content.tooltips
 
 plugins:
   - search
   - blog:
-      blog_dir: .
+      blog_dir: blog
       archive: false
-      categories: false
+      categories: true
       post_url_format: "{slug}"
   - social:
       cards: true
       cards_dir: assets/images/social
   - rss:
-      match_path: "posts/.*"
+      match_path: "blog/posts/.*"
       date_from_meta:
         as_creation: date.created
         as_update: date.updated
@@ -67,18 +66,12 @@ plugins:
 
 extra:
   social:
-  # github
-    - icon: fontawesome/brands/github
-      name: sam-osian on GitHub
-      link: https://github.com/Sam-Osian
-  # linkedin
     - icon: fontawesome/brands/linkedin
-      name: sam-osian on LinkedIn
-      link: https://www.linkedin.com/in/sam-o-andrews/
-  # email
-    - icon: /fontawesome/regular/envelope
-      name: send me an email
-      link: mailto:<samoand@liverpool.ac.uk>
+      name: Connect on LinkedIn
+      link: https://www.linkedin.com/in/your-linkedin/
+    - icon: fontawesome/regular/envelope
+      name: Send me an email
+      link: mailto:your@email.com
 
 hooks:
   - hooks/socialmedia.py
@@ -94,14 +87,13 @@ markdown_extensions:
   - pymdownx.snippets
   - abbr
   - attr_list
+  - md_in_html
   - pymdownx.tabbed:
       alternate_style: true
   - toc:
       permalink: true
-  - attr_list
   - footnotes
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
   - pymdownx.blocks.caption
-
