@@ -1,3 +1,4 @@
+/* Light mode */
 :root > * {
     --md-primary-fg-color:        #4a6880;   /* Steely blue banner */
     --md-primary-fg-color--light: #6a8fa8;   /* Lighter steely blue */
@@ -6,6 +7,19 @@
     --md-primary-bg-color:        #f5f5f5;   /* Light text on banner */
     --md-primary-bg-color--light: #f5f5f5;
     --md-accent-fg-color:         #4a6880;   /* Steely blue hover/accent */
+  }
+
+/* Dark mode */
+[data-md-color-scheme="slate"] {
+    --md-primary-fg-color:        #b5541e;   /* Rusty orange banner */
+    --md-primary-fg-color--light: #d4713a;   /* Lighter rusty orange */
+    --md-primary-fg-color--dark:  #8a3d14;   /* Darker rusty orange */
+    --md-default-bg-color:        #1a1a1a;   /* Very dark grey background */
+    --md-default-bg-color--light: #222222;
+    --md-default-bg-color--lighter: #2a2a2a;
+    --md-primary-bg-color:        #f5f5f5;   /* Light text on banner */
+    --md-primary-bg-color--light: #f5f5f5;
+    --md-accent-fg-color:         #b5541e;   /* Rusty orange hover/accent */
   }
 
 /* Set base font size */
