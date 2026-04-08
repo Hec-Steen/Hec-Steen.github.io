@@ -1,10 +1,11 @@
 :root > * {
-    --md-primary-fg-color:        #e8a0b0;   /* Light pink */
-    --md-primary-fg-color--light: #f0c0cc;   /* Lighter pink */
-    --md-primary-fg-color--dark:  #c97a8e;   /* Darker pink */
-    --md-default-bg-color:        #f2f2f2;   /* Light grey background */
+    --md-primary-fg-color:        #f2c4ce;   /* Pale pink banner */
+    --md-primary-fg-color--light: #f7d8de;   /* Lighter pale pink */
+    --md-primary-fg-color--dark:  #d9a0ae;   /* Slightly deeper pink */
+    --md-default-bg-color:        #d6d6d6;   /* Darker grey background */
     --md-primary-bg-color:        #2c2c2c;   /* Dark text on pink banner */
     --md-primary-bg-color--light: #2c2c2c;
+    --md-accent-fg-color:         #f2c4ce;   /* Pink hover/accent */
   }
 
 /* Set base font size */

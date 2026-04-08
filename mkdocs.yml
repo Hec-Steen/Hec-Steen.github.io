@@ -18,7 +18,7 @@ theme:
     # Palette toggle for light mode
     - scheme: default
       primary: custom
-      accent: deep orange
+      accent: custom
       toggle:
         icon: material/brightness-7
         name: Switch to dark mode
@@ -26,14 +26,15 @@ theme:
     # Palette toggle for dark mode
     - scheme: slate
       primary: custom
-      accent: deep orange
+      accent: custom
       toggle:
         icon: material/brightness-4
         name: Switch to light mode
 
   font:
-    text: Courier Prime
-    code: Courier Prime
+    text: Inconsolata
+    code: Inconsolata
+
   icon:
     logo: material/map
   favicon: favicon.png
