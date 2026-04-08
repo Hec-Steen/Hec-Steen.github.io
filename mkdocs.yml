@@ -32,10 +32,10 @@ theme:
         name: Switch to light mode
 
   font:
-    text: Tinos
-    code: Roboto Mono
+    text: Courier Prime
+    code: Courier Prime
   icon:
-    logo: material/book-open-variant
+    logo: material/map
   favicon: favicon.png
   features:
     - navigation.top
