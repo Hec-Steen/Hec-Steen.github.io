@@ -1,8 +1,21 @@
 # Hector Steenbergen-Cockerton
 
-I'm a researcher working at the intersection of **urban sociology** and the **energy transition** — asking how cities and communities navigate the shift away from fossil fuels, and what this means for the people who live in them.
+I'm a researcher working at the intersection of the **energy transition** and **political economy**. 
 
-My background is in political science. I try to bring a pluralist approach to methods: from machine learning and econometrics to social network analysis and in-depth qualitative work.
+I work with social, spatial and material flow data to map how countries, regions, cities and communities can move to a **fossil-free energy system** and a **low throughput economy**. 
+
+This is essential for a future which is **long-term**, **fair** and **secure**.
+
+---
+
+The world is complicated, the transition is just as complicated - and a **fair** and **secure** future will be complicted too. 
+
+That's why I am a **plurialist** in my methods: from machine learning and econometrics to material flow analysis and GIS, to social network analysis and in-depth qualitative work.
+
+**Here I offer highlights from my research work and my own analysis and views. Sometimes as words, and sometimes as drawings.** 
+
+
+Take a look around, I hope you see something you like. 
 
 ---
 
